@@ -1,0 +1,152 @@
+body{
+     background-image:url('Artboard.png');
+     background-color: rgba(70, 70, 70, 0.2);
+	 background-repeat:no-repeat;
+	 background-attachment:scroll;
+	 background-size:100%;
+   
+	}
+
+.pboder{
+  background-color:rgb(255, 255, 255,0.2);
+  width: 1100px;
+  border: 0px solid green;
+  padding: 50px;
+  margin: 50px;
+
+}
+
+table{
+  margin: 10px;;
+}
+
+.Packages{
+	width:300px;
+	border:0px solid gray;
+	margin:60px;
+}
+
+.align{
+	display:flex;
+	justify-content:left;
+	flex-wrap:wrap;
+	margin-top:5px;
+}
+
+.place{
+	font-family:Arial;}
+
+img {
+     box-shadow: 5px 5px 10px gray;
+   }  
+	
+.polaroid {
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+	
+Packages{
+	width:1200px;
+	border:7px solid rgb(0, 13, 70);
+	margin:20px;
+}
+
+.intro{
+  flex: 1;
+}
+
+.p2{
+  color:white;
+  text-align:center; 
+}
+
+.p3{
+  color:rgb(41, 41, 41);
+  text-align:center; 
+}
+.p1{
+  	color:rgb(27, 27, 36);
+}	
+
+
+.button
+ {
+  background-color: #090a66;
+  border-radius: 12px;
+  border: 2px;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1px;
+  cursor: pointer;
+  float:right;
+ 
+  }
+.button1:hover
+{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.60),0 17px 70px 0 rgba(0,0,0,0.40);
+background-color: #00e1ff
+
+}
+
+
+
+footer {
+       background-color: #006994;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+footer h2 {
+        margin-bottom: 10px;
+    }
+
+footer p {
+        font-size: 15px;
+    }
+.links {
+        margin: 20px 0;
+    }
+
+.links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+.links a:hover {
+       color: yellow;
+    }
+
+footer hr {
+        width: 80%;
+        border: 0;
+        border-top: 1px solid white;
+    }
+
+.copyright {
+        font-size: 14px;
+    }
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.contact h3 {
+  margin: 0;
+  color: white;
+}
+
+.contact p {
+  margin: 0;
+  color: #ccc;
+}
